@@ -1,0 +1,12 @@
+{
+  "name": "interpreter",
+  "dockerComposeFile": "../docker/compose.yaml",
+  "service": "main",
+  "workspaceFolder": "/home/user/workspace",
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": ["golang.Go"]
+    }
+  }
+}
